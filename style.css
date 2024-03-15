@@ -1,0 +1,194 @@
+:root {
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-size: 16px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--Very-Dark-Blue);
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.fylo-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px;
+    flex-wrap: wrap;
+    font-family: "Raleway",sans-serif;
+}
+.fylo-top-text {
+    margin-top: 50px;
+    font-weight: 400;
+    color: var(--Very-Dark-Blue);
+}
+.fylo-top-text span {
+    font-size: 2rem;
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+.fylo-top-text p {
+    color: var(--Very-Dark-Blue);
+    width: 450px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+input  {
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+.form-and-button button {
+    background-color: var(--Bright-Blue);
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 2.5px;
+    box-shadow: 2px 2px 5px var(--Light-Gray);
+}
+.form-and-button {
+    display: flex;
+    margin-top: 20px;
+}
+.center-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background: url(bg-curve-desktop.svg) no-repeat ;
+    background-color: var(--Light-Grayish-Blue);
+    padding-top: 100px;
+}
+.ceter-area-text-and-card {
+    padding: 35px 50px;
+    font-family: "Raleway",sans-serif;
+    margin-bottom: 70px;
+}
+.ceter-area-text-and-card h1 {
+    color: var(--Very-Dark-Blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ceter-area-text-and-card p {
+    font-weight: 400;
+    margin-top: 20px;
+    color: var(--Very-Dark-Blue);
+    font-weight: 500;
+    width: 545px;
+    margin-bottom: 15px;
+}
+.ceter-area-text-and-card a {
+    color: var(--Moderate-Cyan);
+}
+svg {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px ;
+    font-family:"Raleway",sans-serif; 
+    font-weight: 400;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px var(--Light-Gray) ;
+    max-width: 400px;
+}
+.card p {
+    width: 316px;
+    color: var(--Very-Dark-Blue);
+    line-height: 25px;
+}
+.avatar img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.avatar {
+    display: flex;
+}
+.avatar small {
+    font-size: 1rem;
+    color: var(--Very-Dark-Blue);
+    line-height: 20px;
+    font-weight: 700;
+}
+.avatar span {
+    color: var(--Desaturated-Blue);
+    font-size: 0.7rem;
+}
+.after-crenter-area {
+    background-color: var(--Desaturated-Blue);
+    display: flex;
+    justify-content: space-between;
+    font-family:"Raleway",sans-serif ;
+    padding: 50px 60px;
+}
+.after-crenter-area-text span {
+    font-size: 2rem;
+    color: var(--Light-Grayish-Blue);
+    font-weight: 600;
+}
+.after-crenter-area-text p {
+    width: 470px;
+    color: var(--Light-Gray);
+    margin-top: 20px;
+}
+.after-crenter-area-text-btn-input {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.after-crenter-area-text-btn-input input {
+    padding: 10px 170px;
+    background-color: rgb(255, 255, 255);
+    text-align: start;
+    border-radius: 5px;
+}
+.after-crenter-area-text-btn-input button {
+    background-color: var(--Bright-Blue);
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 2.5px;
+    margin-top: 20px;
+}
+footer {
+    background-color: var(--Very-Dark-Blue);
+    justify-content: space-between;
+    display: flex;
+    padding: 50px ;
+}
+.a-fotter {
+    display: flex;
+    flex-direction: column;
+}
+.a-fotter a {
+    margin-top: 10px;
+    color: var(--Light-Gray);
+    text-decoration: none;
+}
+
+
